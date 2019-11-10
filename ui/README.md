@@ -37,3 +37,15 @@ https://swimlane.github.io/ngx-charts/#/ngx-charts/line-chart
 BUILD
 =====
 - ng build --prod --base-href "https://j3nnn1.github.io/uva/ui/dist/uva"
+
+- https://j3nnn1.github.io/uva/ui/dist/uva/index.html
+
+=====
+git checkout -b gh-pages
+🌹  git push origin gh-pages
+🌹  npm install -g angular-cli-ghpages
+🌹  ng build --prod --base-href https://[username].github.io/[repo]/
+🌹  ngh --dir=dist/[project-name]
+It is only necessary to set the the--base-href flag once, next time you build the project you can simply run:
+
+ng build --prod
