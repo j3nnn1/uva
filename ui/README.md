@@ -33,3 +33,7 @@ npm WARN bootstrap@4.3.1 requires a peer of popper.js@^1.14.7 but none is instal
 https://swimlane.gitbook.io/ngx-charts/installing
 
 https://swimlane.github.io/ngx-charts/#/ngx-charts/line-chart
+
+BUILD
+=====
+- ng build --prod --base-href "https://j3nnn1.github.io/uva/ui/dist/uva"

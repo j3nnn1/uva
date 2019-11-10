@@ -38,4 +38,7 @@ export class AppComponent implements OnInit {
     this.multi = SampleJson.default;
     console.log('onInit', this.multi.default);
   }
+  onSelect(something: any) {
+    console.log('onSelect');
+  }
 }
