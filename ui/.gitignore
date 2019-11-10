@@ -1,0 +1,4 @@
+.idea/*
+../.idea/*
+../etl/
+node_modules/*
