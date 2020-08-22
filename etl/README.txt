@@ -47,3 +47,11 @@ go run 00makeConsecutiveDays.go  > logs.txt
         "ARG": 2, // numero de columna teniendo que la primera columna es 0
     }
 ```
+
+- Ojito el Json template generado tiene mayusculas en los keys, llevar todo a minuscula, "series" "value" y "name".
+
+- para probar ng serve
+
+- para generar distribucion y guardar en gh-pages
+
+ng build --prod --base-href "https://j3nnn1.github.io/uva/"
