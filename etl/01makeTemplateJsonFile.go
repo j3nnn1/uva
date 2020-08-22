@@ -52,14 +52,17 @@ func main() {
     header := map[string]Line {
 	"USD":{},
 	"ARG":{},
+	"ARG_30":{},
     }
     body := map[string][]Point {
 	"USD": {},
 	"ARG": {},
+	"ARG_30":{},
     }
     variables := map[string]int {
         "USD": 6,
         "ARG": 2,
+	"ARG_30":7,
     }
 
     r := getFileHandler("uva_uvi_usd_final.csv")
