@@ -55,3 +55,7 @@ go run 00makeConsecutiveDays.go  > logs.txt
 - para generar distribucion y guardar en gh-pages
 
 ng build --prod --base-href "https://j3nnn1.github.io/uva/"
+
+- copiar archivos de la carpeta ./dist a la carpeta raiz en el branch gh-pages. aprox 5, 6 files 
+
+- push origin gh-pages
