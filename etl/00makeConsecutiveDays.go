@@ -107,7 +107,7 @@ func main() {
     var cDate time.Time
     var previosDate time.Time
 
-    csvfileInput, err := os.Open("ConscotizaWITHOUTHEADER.csv")
+    csvfileInput, err := os.Open("ConscotizaWITHOUTHEADER2.csv")
 
     csvfileOutput, err := os.Create("filledDates.csv")
     writer := csv.NewWriter(csvfileOutput)
@@ -139,7 +139,7 @@ func main() {
 		var prevTmp time.Time
 		prevTmp = previosDate
 
-		for i := 0; i <= (day -1); i++ {
+		for i := 0; i < (day -1); i++ {
 		     newTmp[i] = prevTmp.AddDate(0, 0, 1)
 		     prevTmp = newTmp[i]
 	             value = []string{newTmp[i].String(),record[0], record[5], record[6]}

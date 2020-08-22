@@ -81,6 +81,7 @@ func main() {
 	    csvValue, err := strconv.ParseFloat(record[v], 64)
 	    if err != nil {
                 fmt.Printf("[SETTING VARIABLES ERROR]  %s\n", err)
+                fmt.Printf("[SETTING VARIABLES ERROR]  %v\n", record[v])
 	    }
 	    PointTmp := Point { Name: record[0], Value: csvValue}
             body[k] = append(body[k], PointTmp)
