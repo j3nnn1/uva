@@ -14,7 +14,7 @@ export class AppComponent implements OnInit {
   // this contain json data
 
   title = 'Uva';
-  jsonUrl = 'assets/timeseries/uva_usd2.json';
+  jsonUrl = 'assets/timeseries/uva_usd.json';
   view: any[] = [1300, 400];
 
   // options for the chart
