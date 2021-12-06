@@ -107,7 +107,7 @@ func main() {
     var cDate time.Time
     var previosDate time.Time
 
-    csvfileInput, err := os.Open("ConscotizaWITHOUTHEADER2.csv")
+    csvfileInput, err := os.Open("ConscotizaWITHOUTHEADER.csv")
 
     csvfileOutput, err := os.Create("filledDates.csv")
     writer := csv.NewWriter(csvfileOutput)
