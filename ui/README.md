@@ -49,3 +49,12 @@ git checkout -b gh-pages
 It is only necessary to set the the--base-href flag once, next time you build the project you can simply run:
 
 ng build --prod
+
+usa node v16.13.1 LTS
+angular 7.x.x
+TO update
+chunk {0} runtime.26209474bfa8dc87a77c.js (runtime) 1.41 kB [entry] [rendered]
+chunk {1} es2015-polyfills.3f4e8bcd7f6755d78863.js (es2015-polyfills) 56.6 kB [initial] [rendered]
+chunk {2} main.3d72404c3e6817427c19.js (main) 935 kB [initial] [rendered]
+chunk {3} polyfills.8bbb231b43165d65d357.js (polyfills) 41 kB [initial] [rendered]
+chunk {4} styles.3ff695c00d717f2d2a11.css (styles) 0 bytes [initial] [rendered]
