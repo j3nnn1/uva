@@ -62,3 +62,18 @@ chunk {4} styles.3ff695c00d717f2d2a11.css (styles) 0 bytes [initial] [rendered]
 
 
 ng build --prod --base-href "https://j3nnn1.github.io/uva/"
+
+
+con gh-pages angular. desde el dir:  /home/j3nnn1/git/uva/ui
+=======================
+base) ┌─[j3nnn1@caracas] - [~/git/uva/ui] - [Mon Dec 06, 00:38]
+└─[$] <git:(master*)> ngh deploy --base-href=/uva/
+
+index.html could not be copied to 404.html. This does not look like an angular-cli project?!
+(Hint: are you sure that you have setup the directory correctly?)
+Diagnostic info: ENOENT: no such file or directory, stat '/home/j3nnn1/git/uva/ui/dist/index.html'
+🚀 Uploading via git, please wait...
+Username for 'https://github.com': j3nnn1
+Password for 'https://j3nnn1@github.com': 
+🌟 Successfully published via angular-cli-ghpages! Have a nice day!
+
