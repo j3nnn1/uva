@@ -78,4 +78,11 @@ ng build --prod --base-href "https://j3nnn1.github.io/uva/"
 - node VERSION
 - angular VERSION 7.2.15
 
-npm i @angular/core@7.2.15
+    npm i @angular/core@7.2.15
+
+
+└─[$] <git:(master*)> ngh --dir=dist/uva
+🚀 Uploading via git, please wait...
+Username for 'https://github.com': j3nnn1
+Password for 'https://j3nnn1@github.com': 
+🌟 Successfully published via angular-cli-ghpages! Have a nice day!

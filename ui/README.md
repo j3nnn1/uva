@@ -46,6 +46,7 @@ git checkout -b gh-pages
 🌹  npm install -g angular-cli-ghpages
 🌹  ng build --prod --base-href https://[username].github.io/[repo]/
 🌹  ngh --dir=dist/[project-name]
+🌹  ngh --dir=dist/uva
 It is only necessary to set the the--base-href flag once, next time you build the project you can simply run:
 
 ng build --prod
@@ -58,3 +59,6 @@ chunk {1} es2015-polyfills.3f4e8bcd7f6755d78863.js (es2015-polyfills) 56.6 kB [i
 chunk {2} main.3d72404c3e6817427c19.js (main) 935 kB [initial] [rendered]
 chunk {3} polyfills.8bbb231b43165d65d357.js (polyfills) 41 kB [initial] [rendered]
 chunk {4} styles.3ff695c00d717f2d2a11.css (styles) 0 bytes [initial] [rendered]
+
+
+ng build --prod --base-href "https://j3nnn1.github.io/uva/"
